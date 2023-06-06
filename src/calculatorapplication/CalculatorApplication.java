@@ -32,9 +32,9 @@ public class CalculatorApplication implements ActionListener {
     JButton devide = new JButton("/");
     JButton plus = new JButton("+");
     JButton minus = new JButton("-");
-    JButton square = new JButton("x\u00B2");
+    JButton square = new JButton("x²");
     JButton reciprocal = new JButton("1/x");
-    JButton sqrt = new JButton("\u221A");
+    JButton sqrt = new JButton("√");
 
 
     CalculatorApplication() {
@@ -257,8 +257,8 @@ public class CalculatorApplication implements ActionListener {
                 back.deleteCharAt(number);
                 textField.setText(back.toString());
             }
-            if (textField.getText().endsWith("")) ;
-            label.setText("");
+            if (textField.getText().endsWith(""))
+                label.setText("");
         } else if (source == zero) {
             if (textField.getText().equals("0")) {
                 return;
@@ -336,16 +336,10 @@ public class CalculatorApplication implements ActionListener {
         } else if (source == equal) {
             num2 = Double.parseDouble(textField.getText());
             switch (calculation) {
-                case 1:
-                    result = num1 + num2;
-                    break;
-                case 2:
-                    result = num1 - num2;
-                    break;
-                case 3:
-                    result = num1 * num2;
-                    break;
-                case 4:
+                case 1 -> result = num1 + num2;
+                case 2 -> result = num1 - num2;
+                case 3 -> result = num1 * num2;
+                case 4 -> {
                     if (num2 != 0) {
                         result = num1 / num2;
                     } else {
@@ -353,7 +347,7 @@ public class CalculatorApplication implements ActionListener {
                         textField.setText("Error: Division by zero");
                         return;
                     }
-                    break;
+                }
             }
             if (Double.toString(result).endsWith(".0")) {
                 textField.setText(Double.toString(result).replace(".0", ""));

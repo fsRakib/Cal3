@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e71716c9-cd2c-4b73-8262-2642ecfcf171" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calCulator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculatorapplication/CalculatorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/calculatorapplication/calculator.png" afterDir="false" />
+    <list default="true" id="e71716c9-cd2c-4b73-8262-2642ecfcf171" name="Changes" comment="1st Version">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calculatorapplication/CalculatorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calculatorapplication/CalculatorApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +85,18 @@
       <option name="presentableId" value="Default" />
       <updated>1686065655948</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st Version">
+      <created>1686088148283</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686088148283</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st Version" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st Version" />
   </component>
 </project>
